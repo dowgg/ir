@@ -1,0 +1,12 @@
+embed {
+  outline: 2px solid red;
+}
+
+x-swf {
+  outline: 2px solid blue;
+}
+
+.domu-player {
+  display: inline-block;
+  outline: 2px solid green;
+}

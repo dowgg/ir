@@ -1,0 +1,51 @@
+{
+  "name": "domu-player",
+  "version": "0.0.1",
+  "repository": {},
+  "scripts": {
+    "app:build-dev": "webpack --mode=development",
+    "app:build": "webpack --mode=production",
+    "app:watch": "webpack --mode=development --watch",
+    "serve": "serve build/browser"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "licenses": [
+    {
+      "type": "AGPL-3.0-or-later",
+      "url": "https://spdx.org/licenses/AGPL-3.0-or-later.html"
+    }
+  ],
+  "publishConfig": {},
+  "dependencies": {
+    "@types/element-resize-detector": "^1.1.2",
+    "avm1-types": "^0.9.0",
+    "avmore": "^0.1.1",
+    "element-resize-detector": "^1.1.15",
+    "semantic-types": "^0.1.1",
+    "swf-parser": "^0.8.0",
+    "swf-renderer": "^0.0.6",
+    "swf-tree": "^0.8.0"
+  },
+  "devDependencies": {
+    "@types/copy-webpack-plugin": "^5.0.0",
+    "@types/html-webpack-plugin": "^3.2.1",
+    "@types/node": "^12.7.11",
+    "@types/webpack": "^4.39.2",
+    "@types/webpack-merge": "^4.1.5",
+    "copy-webpack-plugin": "^5.0.4",
+    "html-webpack-plugin": "^3.2.0",
+    "incident": "^3.2.0",
+    "script-ext-html-webpack-plugin": "^2.1.4",
+    "serve": "^11.2.0",
+    "ts-loader": "^6.2.0",
+    "ts-node": "^8.4.1",
+    "tslint": "^5.20.0",
+    "typescript": "^3.6.3",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.9",
+    "webpack-merge": "^4.2.2"
+  }
+}
